@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "npm run prebuild && npm run cpenv && cross-env NODE_ENV=development nest start --watch"
+		}
+	]
+}
